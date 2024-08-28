@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>form</title>
+<style>
+form{
+text-align:center;
+font-size:30px;
+}
+label{
+font-weight:bold;
+text-align:center;
+font-style:italic;
+}
+a{text-decoration:none}
+</style>
+</head>
+<body style="background-image: url('background.jpg')">
+
+<h1 style="text-align:center;font-style:italic">Information about the customer:</h1>
+<form method="POST" action="thx.html">
+<p><label>Name:
+<input name="fname" type="text" size="25">
+</label></p>
+<p><label>last name:
+<input name="last" type="text" size="25">
+</label></p>
+<p><label>ID:
+<input name="ID" type="text" size="25">
+</label></p>
+<p><label>E-mail Address:
+<input name="e" type="text" size="25">
+</label></p>
+<p><label>Received date:
+<input type="d" name="date"/>
+</label></p>
+<p><label>Tel:
+<input type="text" name="t" placeholder="+962######">
+</label></p>
+<p>
+<label>City:
+<select name="s">
+<option selected>Amman
+<option>Zarqa</option>
+<option>Irbid</option>
+<option>Madaba</option>
+<option>Karak</option>
+<option>Jerash</option>
+<option>Aqaba</option>
+<option>Al-Mafraq</option>
+<option>Ajloun</option>
+<option>Maan</option>
+<option>Al-Salt</option>
+<option>Al-Tafilah</option>
+</label></p>
+</select>
+<p><label>Your note:<br>
+<textarea name="comments"
+rows ="4" cols ="36">....</textarea>
+</label></p>
+
+<a href="thx.html"><button>send</button></a>
+
+
+</form>
+
+
+
+</body>
+</html>
